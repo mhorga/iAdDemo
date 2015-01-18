@@ -14,6 +14,7 @@
 		29F35E9B1A6C1CBE00A40523 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F35E9A1A6C1CBE00A40523 /* Images.xcassets */; };
 		29F35E9E1A6C1CBE00A40523 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F35E9C1A6C1CBE00A40523 /* LaunchScreen.xib */; };
 		29F35EAA1A6C1CBE00A40523 /* iAd_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F35EA91A6C1CBE00A40523 /* iAd_demoTests.m */; };
+		29F35EB41A6C330A00A40523 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F35EB31A6C330A00A40523 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		29F35EA31A6C1CBE00A40523 /* iAd demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iAd demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F35EA81A6C1CBE00A40523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29F35EA91A6C1CBE00A40523 /* iAd_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAd_demoTests.m; sourceTree = "<group>"; };
+		29F35EB31A6C330A00A40523 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F35EB41A6C330A00A40523 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		29F35E811A6C1CBE00A40523 = {
 			isa = PBXGroup;
 			children = (
+				29F35EB31A6C330A00A40523 /* iAd.framework */,
 				29F35E8C1A6C1CBE00A40523 /* iAd demo */,
 				29F35EA61A6C1CBE00A40523 /* iAd demoTests */,
 				29F35E8B1A6C1CBE00A40523 /* Products */,
